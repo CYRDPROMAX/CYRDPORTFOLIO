@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #0D0D0D, #3B0B3B); /* Vertical black to purple gradient */
+  color: #EDEDED; /* Soft silver-white text */
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #DDA0DD;
+}
+
+a:hover {
+  color: #BA55D3; /* Deep purple hover */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}

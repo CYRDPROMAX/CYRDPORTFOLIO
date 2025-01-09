@@ -1,0 +1,145 @@
+/* Container Styling */
+.container {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #121212, #1f1f1f);
+    color: #ededed;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  /* Particle Background */
+  .particle-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(106, 13, 173, 0.3) 0%, #121212 100%);
+    z-index: -1;
+    animation: particle-flicker 5s infinite alternate;
+  }
+  
+  /* Flicker Animation */
+  @keyframes particle-flicker {
+    0% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.4;
+    }
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .heading {
+    font-size: 4rem;
+    color: #ba55d3;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    color: #dda0dd;
+    font-weight: bold;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    color: #c9a0dc;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Hover Effects for Text */
+  .hoverable:hover {
+    color: #dda0dd;
+    text-shadow: 0px 0px 10px #dda0dd;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  /* Glowing Circle */
+  .art-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #6a0dad, #121212);
+    box-shadow: 0 0 50px rgba(106, 13, 173, 0.8);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .art-wrapper:hover {
+    transform: rotate(15deg) scale(1.1);
+    box-shadow: 0 0 80px rgba(106, 13, 173, 1);
+  }
+  
+  .art {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6a0dad, #ba55d3);
+    box-shadow: 0 0 30px rgba(186, 85, 211, 0.8);
+    animation: pulse 2s infinite;
+  }
+  
+  /* Pulse Animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Mini-Game Section */
+  .mini-game {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .mini-game-title {
+    font-size: 2rem;
+    color: #dda0dd;
+    margin-bottom: 10px;
+  }
+  
+  .score {
+    font-size: 1.2rem;
+    color: #c9a0dc;
+    margin-bottom: 20px;
+  }
+  
+  /* Binary Numbers */
+  .binary-container {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .binary {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #ededed;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .binary:hover {
+    color: #dda0dd;
+    transform: scale(1.2);
+  }
+  
