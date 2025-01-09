@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CYRDPORTFOLIO/static/css/main.03595b23.css",
+    "main.js": "/CYRDPORTFOLIO/static/js/main.b567fbcd.js",
+    "static/media/logo.png": "/CYRDPORTFOLIO/static/media/logo.b6d19174198815442991.png",
+    "index.html": "/CYRDPORTFOLIO/index.html",
+    "main.03595b23.css.map": "/CYRDPORTFOLIO/static/css/main.03595b23.css.map",
+    "main.b567fbcd.js.map": "/CYRDPORTFOLIO/static/js/main.b567fbcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03595b23.css",
+    "static/js/main.b567fbcd.js"
+  ]
+}
